@@ -7,8 +7,13 @@ class Types extends ChangeNotifier {
 
   Types({required this.types});
 
-  void add(ClientType type){
+  void add(ClientType type) {
     types.add(type);
+    notifyListeners();
+  }
+
+  void remove(int index) {
+    types.remove(index);
     notifyListeners();
   }
 }

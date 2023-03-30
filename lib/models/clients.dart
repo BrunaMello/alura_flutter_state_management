@@ -7,11 +7,14 @@ class Clients extends ChangeNotifier {
   Clients({required this.clients});
 
   //Add
-  void add(Client client){
+  void add(Client client) {
     clients.add(client);
     notifyListeners();
   }
 
-
-
+  //Remove
+  void remove(int index) {
+    clients.remove(index);
+    notifyListeners();
+  }
 }
