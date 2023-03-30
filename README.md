@@ -1,38 +1,39 @@
-![Thumbnail GitHub](./thumb.png)
 
-# Flutter: Gerenciamento de estados complexos
+# Flutter: Complex state management
 
-Esse curso de Flutter vai te ensinar a: 
+This Flutter course will teach you how to:
 
--> O que é estado e gerenciadores de estados
+- > What is state and state managers
 
--> Como instalar e utilizar o Provider como gerenciador de estados
+- > How to install and use Provider as a state manager
 
--> Formular estados seguindo o conceito de single source of truth
+- > Formulate states following the concept of single source of truth
 
--> Como organizar models que utilizam os conceitos do `change notifier`
+- > How to organize models that use the concepts of `change notifier`
 
--> Criar Widgets focados em estado e passagem de dados
+- > Create state-focused widgets and data passing
 
 
-## 🔨 Projeto: Client Control
+## 🔨 Project: Client Control
 
-O projeto do curso consiste em um gerenciamento de clientes de maneira que podemos cadastrar clientes, tipos de clientes e vincular os tipos cadastrados com os clientes utilizando abordagens de gerenciamento de estados.
+The course project consists of customer management so that we can register customers, types of customers and link the types registered with customers using state management approaches.
 
 ![](./screenshot.png)
 
-## ✔️ Técnicas e tecnologias
+## ✔️ Techniques and technologies
 
-**Veja mais de perto o que você aprenderá sobre** :
-- `Provider`: Você aprenderá o que é o provider e o seu poder como gerenciador de estados.
-- `Consumer`: Leia dados da única fonte da verdade através do Widget Consumer. 
-- `Provider.of`: Entenda como acessar valores de estado fora da árvore de Widgets.
-- `ChangeNotifier`: Possibilita preparar uma model para trabalhar como única fonte da verdade.
-- `notifyListeners()`: Notifica as escutas de alterações no estado e notifica ao componente o novo estado.
-- `MultiProvider`: É responsável por prover um meio de gerenciar multiplos providers na árvore de Widgets do projeto.
-- `Redux`: Entenda os conceitos e princípios dos gerenciadores com base no Redux.
-- `BloC`: Veja como funciona a teoria dos gerenciadores que implementam o padrão BloC.
+**Take a closer look at what you will learn about:** 
 
+- `Provider`: You will learn what the provider is and its power as a state manager.
+- `Consumer`: Read data from the only source of truth through the Consumer Widget.
+- `Provider.of`: Understand how to access state values outside the Widgets tree.
+- `ChangeNotifier`: It makes it possible to prepare a model to work as the only source of truth.
+- `notifyListeners()`: Notifies the bugging of changes in the state and notifies the component of 
+  the new state.
+- `MultiProvider`: It is responsible for providing a means of managing multiple providers in the 
+  project's Widgets tree.
+- `Redux`: Understand the concepts and principles of managers based on Redux.
+- `BloC`: See how the theory of managers who implement the BloC standard works.
  
 
 
@@ -40,13 +41,13 @@ O projeto do curso consiste em um gerenciamento de clientes de maneira que podem
 
 **Para executar este projeto você precisa:**
 
-- Ter uma IDE, que pode ser o  [Android Studio](https://developer.android.com/) instalado na sua máquina
-- Ter a [SDK do Flutter](https://docs.flutter.dev/get-started/install) na versão 3.0.0
+- Having an IDE, which can be the  [Android Studio](https://developer.android.com/) installed on 
+  your machine
+- Have the [SDK do Flutter](https://docs.flutter.dev/get-started/install) version 3.0.0
 
 
-## 📚 Mais informações do curso
+## 📚 More course information
 
-Gostou do projeto e quer conhecer mais? Você pode [acessar o curso]() que desenvolve o projeto desde o começo!
+Certificate: 'https://cursos.alura.com.br/certificate/eaec9ad4-a526-4df7-9ef3-8fc27eebcfd8'
 
-Esse curso faz parte da [formação de Flutter da Alura](https://cursos.alura.com.br/formacao-flutter)
-
+<img src="cert.png" alt="certificate">
