@@ -5,4 +5,13 @@ class Clients extends ChangeNotifier {
   List<Client> clients;
 
   Clients({required this.clients});
+
+  //Add
+  void add(Client client){
+    clients.add(client);
+    notifyListeners();
+  }
+
+
+
 }
